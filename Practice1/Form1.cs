@@ -16,10 +16,6 @@ namespace Practice1
         {
             InitializeComponent();
         }
-        private void chart1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -45,9 +41,18 @@ namespace Practice1
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void одновимірнийМасивToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form2 f = new Form2();
+            f.Show();
+            this.Hide();
+        }
 
+        private void двовимірнийМасивToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+            this.Hide();
         }
     }
 }
