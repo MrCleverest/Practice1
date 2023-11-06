@@ -42,7 +42,7 @@ namespace Practice1
                 }
                 dataGridView1.Rows.Clear();
                 dataGridView1.RowCount = matrix.X_length;
-                dataGridView1.ColumnCount = matrix.X_length;
+                dataGridView1.ColumnCount = matrix.Y_length;
                 for (int i = 0; i < matrix.X_length; i++)
                     for (int j = 0; j < matrix.X_length; j++)
                         dataGridView1.Rows[i].Cells[j].Value = matrix[i, j].ToString();

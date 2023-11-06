@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Practice1.Practice3;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,6 +52,13 @@ namespace Practice1
         private void двовимірнийМасивToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 f = new Form3();
+            f.Show();
+            this.Hide();
+        }
+
+        private void unitТестиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Unit_Test f = new Unit_Test();
             f.Show();
             this.Hide();
         }
