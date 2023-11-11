@@ -1,4 +1,5 @@
 ﻿using Practice1.Practice3;
+using Practice1.Practice4;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -59,6 +60,13 @@ namespace Practice1
         private void unitТестиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Unit_Test f = new Unit_Test();
+            f.Show();
+            this.Hide();
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            File f = new File();
             f.Show();
             this.Hide();
         }
