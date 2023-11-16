@@ -51,8 +51,9 @@
             this.одновимірнийМасивToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.двовимірнийМасивToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unitТестиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.стандартніІнтерфейсиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.menuStrip2.SuspendLayout();
@@ -197,7 +198,8 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.роботаЗМасивамиToolStripMenuItem,
             this.unitТестиToolStripMenuItem,
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.стандартніІнтерфейсиToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1146, 28);
@@ -234,18 +236,25 @@
             this.unitТестиToolStripMenuItem.Text = "Unit тести";
             this.unitТестиToolStripMenuItem.Click += new System.EventHandler(this.unitТестиToolStripMenuItem_Click);
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // стандартніІнтерфейсиToolStripMenuItem
+            // 
+            this.стандартніІнтерфейсиToolStripMenuItem.Name = "стандартніІнтерфейсиToolStripMenuItem";
+            this.стандартніІнтерфейсиToolStripMenuItem.Size = new System.Drawing.Size(182, 24);
+            this.стандартніІнтерфейсиToolStripMenuItem.Text = "Стандартні інтерфейси";
+            this.стандартніІнтерфейсиToolStripMenuItem.Click += new System.EventHandler(this.стандартніІнтерфейсиToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -302,6 +311,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem unitТестиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem стандартніІнтерфейсиToolStripMenuItem;
     }
 }
 

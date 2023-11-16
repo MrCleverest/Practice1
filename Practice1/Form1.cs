@@ -1,5 +1,6 @@
 ﻿using Practice1.Practice3;
 using Practice1.Practice4;
+using Practice1.Practice5;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -67,6 +68,13 @@ namespace Practice1
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             File f = new File();
+            f.Show();
+            this.Hide();
+        }
+
+        private void стандартніІнтерфейсиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Interfaces f = new Interfaces();
             f.Show();
             this.Hide();
         }
