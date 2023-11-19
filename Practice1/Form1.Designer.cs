@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -52,8 +52,9 @@
             this.двовимірнийМасивToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unitТестиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.стандартніІнтерфейсиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.івентиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.menuStrip2.SuspendLayout();
@@ -162,14 +163,14 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
             this.chart1.Location = new System.Drawing.Point(432, 152);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
             this.chart1.Size = new System.Drawing.Size(702, 420);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
@@ -199,7 +200,8 @@
             this.роботаЗМасивамиToolStripMenuItem,
             this.unitТестиToolStripMenuItem,
             this.fileToolStripMenuItem,
-            this.стандартніІнтерфейсиToolStripMenuItem});
+            this.стандартніІнтерфейсиToolStripMenuItem,
+            this.івентиToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1146, 28);
@@ -243,18 +245,25 @@
             this.fileToolStripMenuItem.Text = "File";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // стандартніІнтерфейсиToolStripMenuItem
             // 
             this.стандартніІнтерфейсиToolStripMenuItem.Name = "стандартніІнтерфейсиToolStripMenuItem";
             this.стандартніІнтерфейсиToolStripMenuItem.Size = new System.Drawing.Size(182, 24);
             this.стандартніІнтерфейсиToolStripMenuItem.Text = "Стандартні інтерфейси";
             this.стандартніІнтерфейсиToolStripMenuItem.Click += new System.EventHandler(this.стандартніІнтерфейсиToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // івентиToolStripMenuItem
+            // 
+            this.івентиToolStripMenuItem.Name = "івентиToolStripMenuItem";
+            this.івентиToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.івентиToolStripMenuItem.Text = "Івенти";
+            this.івентиToolStripMenuItem.Click += new System.EventHandler(this.івентиToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -312,6 +321,7 @@
         private System.Windows.Forms.ToolStripMenuItem unitТестиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem стандартніІнтерфейсиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem івентиToolStripMenuItem;
     }
 }
 
